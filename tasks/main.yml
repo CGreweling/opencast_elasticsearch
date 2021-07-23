@@ -6,7 +6,7 @@
     state: present
   when: ansible_os_family == 'Debian'
 
-- name: install aelasticsearch (rhel)
+- name: install elasticsearch (rhel)
   dnf:
     name: elasticsearch-oss
     state: present
